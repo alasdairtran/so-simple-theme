@@ -1,17 +1,18 @@
 # Site wide configuration
+# when building locally, comment out url and replace pygments with null
 
-title: Site Title
+title: Alasdair Tran
 locale: en_US
-description: Describe your website here.
+description: Just another collection of fermions and bosons.
 logo: site-logo.png
 search: true
-url: http://localhost:4000
+url: # http://alasdairtran.com
 
 # Jekyll configuration
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: pygments
+highlighter: null # pygments
 sass:
   sass_dir: _sass
   style: compressed
@@ -31,13 +32,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Alasdair Tran
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: alasdair.tran@gmail.com
   disqus-shortname:
   twitter: #username
   facebook: #username
-  github: #username
+  github: alasdairtran
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
