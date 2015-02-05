@@ -6,13 +6,13 @@ locale: en_US
 description: Just another collection of fermions and bosons.
 logo: site-logo.png
 search: true
-url: # http://alasdairtran.com
+url: http://alasdairtran.com
 
 # Jekyll configuration
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: null # pygments
+highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
